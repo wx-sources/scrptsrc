@@ -1,6 +1,6 @@
 local Update = (loadstring(game:HttpGet("https://you.whimper.xyz/sources/relzhub/dep/pc.lua")))();
 local Alert = (loadstring(game:HttpGet("https://you.whimper.xyz/sources/relzhub/dep/alert.lua")))();
-local Library = Update:Window("Blox Fruits");
+local Library = Update:Window("🌌 Nytherune Hub - Blox Fruits 🌌");
 local MainTab = Library:Tab("Main", "rbxassetid://10723407389");
 local SettingsTab = Library:Tab("Setting", "rbxassetid://10734950309");
 local HoldTab = Library:Tab("Hold Skill", "rbxassetid://10734984606");
@@ -10148,3 +10148,4 @@ for _, fruitData in pairs(result) do
 	end;
 end;
 Alert:create("Done Loaded!");
+
